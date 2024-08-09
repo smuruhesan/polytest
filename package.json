@@ -1,0 +1,12 @@
+{
+  "name": "polyfill-test",
+  "version": "1.0.0",
+  "description": "Test connection to polyfill.io",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
