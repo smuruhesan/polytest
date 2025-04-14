@@ -1,0 +1,25 @@
+# .github/workflows/secret-scan-workflow.yml
+# This file simulates a leaked token inside a GitHub Actions workflow for GHSA testing
+
+name: Copilot Metrics & Seat Management Report
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+      - TCDD-4567
+
+jobs:
+  run:
+    name: Copilot Usage Metrics Export Action
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Simulate hardcoded GitHub token in code
+        run: |
+          echo "Using token: ghp_testtoken1234567890abcdef1234567890abcd" >> token-log.txt
+          cat token-log.txt
