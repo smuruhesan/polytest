@@ -13,3 +13,4 @@ jobs:
       - uses: bcg-ep-dso/github-action-composite-actions/CopilotMetricsSeatReport@copilot-usage 
         with:
           github-token: "ghp_mJBHCEu0×X0A2g7wNOVHtL0450Hq®14Fg~Kh"
+          github-token: "ghp_testtoken1234567890abcdef1234567890abcd"
