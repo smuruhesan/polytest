@@ -1,1 +1,38 @@
 
+{
+  "mainRule":   {
+    "creationDate": "2024-05-13T07:10:00.151Z",
+    "name": "Security default findings",
+    "createdBy": "sandeep.kumar11@canarahsbclife.in",
+    "repositories": [],
+    "labels": [],
+    "codeCategories":     {
+      "SECRETS":       {
+        "softFailThreshold": "OFF",
+        "hardFailThreshold": "OFF",
+        "commentsBotThreshold": "OFF"
+      },
+      "IAC":       {
+        "softFailThreshold": "OFF",
+        "hardFailThreshold": "OFF",
+        "commentsBotThreshold": "OFF"
+      },
+      "VULNERABILITIES":       {
+        "softFailThreshold": "OFF",
+        "hardFailThreshold": "OFF",
+        "commentsBotThreshold": "OFF"
+      },
+      "LICENSES":       {
+        "softFailThreshold": "OFF",
+        "hardFailThreshold": "OFF",
+        "commentsBotThreshold": "OFF"
+      },
+      "WEAKNESSES":       {
+        "softFailThreshold": "OFF",
+        "hardFailThreshold": "OFF",
+        "commentsBotThreshold": "OFF"
+      }
+    }
+  },
+  "ExceptionRules": []
+}
