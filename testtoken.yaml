@@ -1,4 +1,8 @@
 name: Copilot Metrics & Seat Management Report 
+
+credentials:
+  github-token: "ghp_1234567890abcdefghijklmnopqrstuvwxyz1234"
+
 on:
   workflow_dispatch:
   push:
@@ -11,5 +15,3 @@ jobs:
     runs-on: ubuntu-latest 
     steps:
       - uses: bcg-ep-dso/github-action-composite-actions/CopilotMetricsSeatReport@copilot-usage 
-        credentials:
-          github-token: "ghp_mJBHCEu0×X0A2g7wNOVHtL0450Hq®14Fg~Kh"
